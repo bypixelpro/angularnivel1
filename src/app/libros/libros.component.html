@@ -1,0 +1,9 @@
+<ul>
+    <li *ngFor="let libro of libros">
+      <a (click)="agregarLibro(libro)"
+      [routerLink]="['/informacion', libro.id]">
+      {{libro.titulo}}</a>
+    </li>
+</ul>
+<div *ngIf="errorHttp">Hay un error en la carga...</div>
+<div *ngIf="cargando" class="loader"></div>

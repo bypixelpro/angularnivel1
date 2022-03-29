@@ -1,0 +1,21 @@
+.yellow{
+    background: yellow;
+}
+.activoyellow{
+    background: yellow;
+    color: white;
+}
+.blue{
+    background: blue;
+}
+.activoblue{
+    background: blue;
+    color: white;
+}
+.green{
+    background: green;
+}
+.activogreen{
+    background: green;
+    color:white;
+}
